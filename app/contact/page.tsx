@@ -26,7 +26,7 @@ export default function Contact() {
           <h1 className="text-2xl font-bold text-gray-900">Retro Reborn</h1>
           <nav className="space-x-6 text-gray-700 font-medium">
             <Link href="/" className="hover:text-black">Home</Link>
-            <Link href="/products" className="hover:text-black">Products</Link>
+            <Link href="/product" className="hover:text-black">Products</Link>
             <Link href="/about" className="hover:text-black">About</Link>
             <Link href="/contact" className="hover:text-black">Contact</Link>
           </nav>

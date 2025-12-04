@@ -88,7 +88,7 @@ export default function ProductDetailPage({ params }: any) {
         <Link href="/" className="text-xl font-extrabold">Retro Reborn</Link>
         <nav className="flex gap-6">
           <Link href="/">Home</Link>
-          <Link href="/products">Products</Link>
+          <Link href="/product">Products</Link>
            <Link href="/cart" className="relative">
           Cart{totalQty > 0 && ` (${totalQty})`}
         </Link>

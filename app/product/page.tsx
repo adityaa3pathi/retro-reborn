@@ -79,7 +79,7 @@ const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
           <Link href="/" className="hover:text-[#d97706] transition">
             Home
           </Link>
-          <Link href="/products" className="hover:text-[#d97706] transition">
+          <Link href="/product" className="hover:text-[#d97706] transition">
             Products
           </Link>
             <Link href="/cart" className="relative">
