@@ -18,7 +18,7 @@ export default function Home() {
 
           <nav className="space-x-6 text-gray-700 font-medium">
             <a href="/" className="hover:text-black">Home</a>
-            <a href="/products" className="hover:text-black">Products</a>
+            <a href="/product" className="hover:text-black">Products</a>
             <a href="/about" className="hover:text-black">About</a>
             <a href="/contact" className="hover:text-black">Contact</a>
              <Link href="/cart" className="relative">
@@ -46,7 +46,7 @@ export default function Home() {
             </p>
 
             <a
-              href="/products"
+              href="/product"
               className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-200 transition"
             >
               Shop Now
